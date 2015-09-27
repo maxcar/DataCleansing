@@ -26,3 +26,25 @@ was separated using a Butterworth low-pass filter into body acceleration and gra
 The gravitational force is assumed to have only low frequency components, 
 therefore a filter with 0.3 Hz cutoff frequency was used. 
 From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
+
+#Data Set Description
+
+-'features_info.txt': includes information about the variables used on the feature vector.
+-'features.txt': Features data.
+-'activity_labels.txt': Links the class labels with their activity name.
+-'train/X_train.txt': Training data.
+-'train/y_train.txt': Training labels.
+-'test/X_test.txt': Test data.
+-'test/y_test.txt': Test labels.
+
+-'train/subject_train.txt':
+Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+
+-'train/Inertial Signals/total_acc_x_train.txt'/'total_acc_x_train.txt'/'total_acc_z_train.txt': 
+The acceleration signal from the smartphone accelerometer X/Y/Z axis in standard gravity units 'g'. Every row shows a 128 element vector. 
+
+-'train/Inertial Signals/body_acc_x_train.txt':
+The body acceleration signal obtained by subtracting the gravity from the total acceleration.
+
+-'train/Inertial Signals/body_gyro_x_train.txt': 
+The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.txt)
