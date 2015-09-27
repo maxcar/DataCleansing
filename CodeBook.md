@@ -30,11 +30,17 @@ From each window, a vector of features was obtained by calculating variables fro
 #Data Set Description
 
 -'features_info.txt': includes information about the variables used on the feature vector.
+
 -'features.txt': Features data.
+
 -'activity_labels.txt': Links the class labels with their activity name.
+
 -'train/X_train.txt': Training data.
+
 -'train/y_train.txt': Training labels.
+
 -'test/X_test.txt': Test data.
+
 -'test/y_test.txt': Test labels.
 
 -'train/subject_train.txt':
