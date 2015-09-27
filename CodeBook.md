@@ -54,3 +54,12 @@ The body acceleration signal obtained by subtracting the gravity from the total 
 
 -'train/Inertial Signals/body_gyro_x_train.txt': 
 The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.txt)
+
+#Process Description
+1. Load the feature entries from features.txt file
+2. discover the indices of the entries according to the desired features (containing -mean() or -std())
+3. load both the training and test data sets (retaining data columns determined by indices from step #4)
+4. proceed with the merge the training and test data sets
+5. replace label codes in the dataset with text labels discovered in step #2
+6. proceed to reshape the data by using labels and subjects as identifiers
+7. create a tidy data set named tidy_dataset.txt which includes the average of each variable for each activity/subject combination
