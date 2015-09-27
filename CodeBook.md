@@ -1,15 +1,15 @@
 
-Scope
-a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data
+#Scope
+This code book describes the variables, the data, and any transformations or work that you performed to clean up the data
 
-Assumptions
+#Assumptions
 The R code in run_analysis.R proceeds under the assumption that the zip file available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip is downloaded and extracted in the default R Working Directory.
 
-Required Libraries
+#Required Libraries
 library(data.table)
 library(reshape2)
 
-Source Data Set Information:
+#Source Data Set Information
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
